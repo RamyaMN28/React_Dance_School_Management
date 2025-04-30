@@ -1,0 +1,236 @@
+/* Background container */
+.auth-container {
+    background: url('../assets/login_bg.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Card UI */
+  .auth-card {
+    backdrop-filter: blur(12px);
+    background: linear-gradient(135deg, #2e8b57cc, #006400cc); /* translucent dark green gradient */
+    color: white;
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Card Hover */
+  .auth-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Headings */
+  .auth-card h2 {
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  
+  /* Inputs */
+  .auth-card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  /* Button */
+  .auth-card button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(90deg, #11998e, #38ef7d);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  /* Button Hover */
+  .auth-card button:hover {
+    background: linear-gradient(90deg, #38ef7d, #11998e);
+  }
+  
+  /* Links */
+  .auth-card a {
+    color: #90ee90;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Link Hover */
+  .auth-card a:hover {
+    color: #ffffff;
+  }
+/* Navbar styles */
+.navbar {
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 5px 10px;
+}
+
+.navbar-links a:hover {
+  background-color: #45a049;
+  border-radius: 5px;
+}
+
+/* Social Media Icons */
+.social-media-icons a {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.social-media-icons a:hover {
+  color: #45a049;
+}
+
+/* Section Background */
+.section-bg {
+  background-color: #f4f4f4;
+  padding: 40px;
+  margin-top: 100px; /* Space for fixed navbar */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(238, 20, 20, 0.1);
+}
+
+.section-bg h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.section-bg p, .section-bg ul {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Partners Section */
+.partners-section {
+  background-color: #e6ffe6;
+  padding: 40px;
+  text-align: center;
+}
+
+.partners-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.partners-logos img {
+  width: 120px;
+  height: auto;
+  margin: 10px;
+  animation: slide 10s infinite linear;
+}
+/* CustomCard.css */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 90px;
+  background-color: #f8f9fa;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+small {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #6c757d;
+}
+
+select.form-control {
+  font-size: 14px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 10px;
+}
+
+
+/* Logo Animation */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,32 @@
+
+  
+  .explore-section {
+    background: linear-gradient(to bottom, #e0f8e9, #ffffff);
+    margin-top: 50px;
+  }
+  .btn-group .btn {
+    min-width: 120px;
+  }
+
+  
+  
+  .dance-card img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  
+  .green-schedule {
+    background-color: #e6f4ea;
+    border: 1px solid #c8e6c9;
+    border-radius: 12px;
+  }
+  
+  .green-schedule .card-body {
+    background-color: #f1fdf4;
+  }
+  
+  .cta-section {
+    background-color: #e6f4ea;
+  }
+  

@@ -1,0 +1,44 @@
+/* Custom Styles */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1, h2 {
+  color: #343a40;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.home-page {
+  padding: 50px 0;
+}
+
+.home-page .button-container {
+  margin-top: 20px;
+}
+
+.login-page, .register-page {
+  padding: 50px 0;
+}
+
+.text-center {
+  margin-top: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

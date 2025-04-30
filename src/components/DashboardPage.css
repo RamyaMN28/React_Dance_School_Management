@@ -1,0 +1,25 @@
+.dashboard-bg {
+  background-color: #f1fdf4;
+}
+
+.table thead.table-success {
+  background-color: #d0f0dc !important;
+}
+
+  
+  .table th,
+  .table td {
+    vertical-align: middle;
+    font-size: 1rem;
+  }
+  
+  .card-header {
+    font-size: 1.2rem;
+  }
+  
+  .badge {
+    font-size: 0.9rem;
+    padding: 0.6em 1em;
+  }
+  
+  
